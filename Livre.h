@@ -2,6 +2,7 @@
 #define LIVRE_H
 #include 'Date.h'
 #include <string>
+#include <vector>
 
 class Livre {
 private:
