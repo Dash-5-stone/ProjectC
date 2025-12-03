@@ -11,7 +11,7 @@ std::string prenom_;
 std::vector<int> isbnEmprunter_;
 
     public:
-    Lecteur(std::string identifiant_, std::string nom_,std::string prenom_,)
+    Lecteur(std::string identifiant, std::string nom,std::string prenom,)
     int setIdentifiant();
     int getIdentifiant();
     std::string getNom();

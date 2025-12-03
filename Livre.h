@@ -17,7 +17,7 @@ std::vector<std::string> identifiantEmprunteur_;
 
 
 public:
-Livre(std::string titre_, std::string auteur_, std::string langue_,Date datePublication_, std::string genre_, int isbn_, bool disponibilite_);
+Livre(std::string titre, std::string auteur, std::string langue,Date datePublication, std::string genre, int isbn, bool disponibilite);
 Livre();
 std::string getTitre();
 std::string getAuteur();
