@@ -5,7 +5,7 @@
 class Emprunt {
     private:
 Date dateEmprunt_;
-int getIsbnLivre_;
+int IsbnLivre_;
 std::string identifiantLecteur_;
 
     public:
