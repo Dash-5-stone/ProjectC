@@ -13,7 +13,7 @@ Date datePublication_;
 int isbn_;
 std::string langue_;
 bool disponibilite_;
-std::list<std::string> identifiantEmprunteur_;
+std::vector<std::string> identifiantEmprunteur_;
 
 
 public:
