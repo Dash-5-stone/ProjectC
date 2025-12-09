@@ -1,6 +1,6 @@
 #ifndef LIVRE_H
 #define LIVRE_H
-#include 'Date.h'
+#include "Date.h"
 #include <string>
 #include <vector>
 
@@ -19,16 +19,16 @@ std::vector<std::string> identifiantEmprunteur_;
 public:
 Livre(std::string titre, std::string auteur, std::string langue,Date datePublication, std::string genre, int isbn, bool disponibilite);
 Livre();
-std::string getTitre();
-std::string getAuteur();
-std::string getLangue();
-std::string getGenre();
+std::string getTitre() const;
+std::string getAuteur() const;
+std::string getLangue() const;
+std::string getGenre() const;
 std::string setLangue();
 std::string setGenre();
 std::string setAuteur();
-int getIsbn();
+int getIsbn() const;
 int setIsbn();
-bool getDisponibilite();
+bool getDisponibilite() const;
 bool setDisponibilite();
 
 

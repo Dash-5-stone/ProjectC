@@ -1,5 +1,6 @@
 #ifndef EMPRUNT_H
 #define EMPRUNT_H
+#include "Date.h"
 #include <string>
 
 class Emprunt {

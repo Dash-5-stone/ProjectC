@@ -9,11 +9,11 @@ int annee_;
 
     public:
 Date(int jour, int mois, int annee);
-int getJour();
+int getJour() const;
 int setJour();
-int getMois();
-int setMois();
-int getAnnee();
+int getMois() const ;
+int setMois() ;
+int getAnnee() const;
 int setAnnee();
 
 };

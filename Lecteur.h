@@ -11,14 +11,14 @@ std::string prenom_;
 std::vector<int> isbnEmprunter_;
 
     public:
-    Lecteur(std::string identifiant, std::string nom,std::string prenom,)
+    Lecteur(std::string identifiant, std::string nom,std::string prenom);
     int setIdentifiant();
-    int getIdentifiant();
-    std::string getNom();
-    std::string getPrenom();
+    int getIdentifiant() const;
+    std::string getNom() const;
+    std::string getPrenom() const;
     std::string setNom();
     std::string setPrenom();
-    std::string getIsbnEmprunter();
+    std::string getIsbnEmprunter() const;
     std::string setIsbnEmprunter();
 
 };
